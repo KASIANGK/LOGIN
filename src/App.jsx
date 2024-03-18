@@ -13,7 +13,7 @@ function App() {
 
   const count = useSelector((reducer) => reducer.counter.value)
   const dispatch = useDispatch()
-const [amount, setAmount] = useState(5)
+// const [amount, setAmount] = useState(5)
 
   const routeur = createBrowserRouter([
     {
